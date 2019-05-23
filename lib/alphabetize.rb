@@ -1,10 +1,10 @@
 require 'pry'
 def alphabetize(arr)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".chars.to_a
-  arr.sort_by |phrase| do 
-    phrase.chars.delete(" ").map 
+  arr.sort_by do |phrase| 
+    phrase.chars.delete(" ").map do |letter| 
+      l
   
-  { |phrase| alphabet.index(phrase[i]) }
 end
 
 alphabetize(["bonan matenon", "ĉu vi parolas esperanton", "mi amas vin", "pacon"])

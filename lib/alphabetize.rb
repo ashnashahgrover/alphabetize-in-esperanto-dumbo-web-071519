@@ -1,7 +1,7 @@
 require 'pry'
 def alphabetize(arr)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".chars.to_a
-  arr.sory { |word| alphabet.index(word[0]) }
+  arr.sort_by { |word| alphabet.index(word[0]) }
   binding.pry
 end
 
